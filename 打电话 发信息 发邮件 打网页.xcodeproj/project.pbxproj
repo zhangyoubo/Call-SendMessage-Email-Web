@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1876ACC71CC8B401008A6AD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1876ACC61CC8B401008A6AD4 /* main.m */; };
+		1876ACCA1CC8B401008A6AD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1876ACC91CC8B401008A6AD4 /* AppDelegate.m */; };
+		1876ACCD1CC8B401008A6AD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1876ACCC1CC8B401008A6AD4 /* ViewController.m */; };
+		1876ACD01CC8B401008A6AD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1876ACCE1CC8B401008A6AD4 /* Main.storyboard */; };
+		1876ACD21CC8B401008A6AD4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1876ACD11CC8B401008A6AD4 /* Images.xcassets */; };
+		1876ACD51CC8B401008A6AD4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1876ACD31CC8B401008A6AD4 /* LaunchScreen.xib */; };
+		1876ACE11CC8B401008A6AD4 /* _______________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1876ACE01CC8B401008A6AD4 /* _______________Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1876ACDB1CC8B401008A6AD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1876ACB91CC8B401008A6AD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1876ACC01CC8B401008A6AD4;
+			remoteInfo = "打电话 发信息 发邮件 打网页";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1876ACC11CC8B401008A6AD4 /* 打电话 发信息 发邮件 打网页.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "打电话 发信息 发邮件 打网页.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1876ACC51CC8B401008A6AD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1876ACC61CC8B401008A6AD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1876ACC81CC8B401008A6AD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1876ACC91CC8B401008A6AD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1876ACCB1CC8B401008A6AD4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1876ACCC1CC8B401008A6AD4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1876ACCF1CC8B401008A6AD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1876ACD11CC8B401008A6AD4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1876ACD41CC8B401008A6AD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1876ACDA1CC8B401008A6AD4 /* 打电话 发信息 发邮件 打网页Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "打电话 发信息 发邮件 打网页Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1876ACDF1CC8B401008A6AD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1876ACE01CC8B401008A6AD4 /* _______________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______________Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1876ACBE1CC8B401008A6AD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1876ACD71CC8B401008A6AD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1876ACB81CC8B401008A6AD4 = {
+			isa = PBXGroup;
+			children = (
+				1876ACC31CC8B401008A6AD4 /* 打电话 发信息 发邮件 打网页 */,
+				1876ACDD1CC8B401008A6AD4 /* 打电话 发信息 发邮件 打网页Tests */,
+				1876ACC21CC8B401008A6AD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1876ACC21CC8B401008A6AD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1876ACC11CC8B401008A6AD4 /* 打电话 发信息 发邮件 打网页.app */,
+				1876ACDA1CC8B401008A6AD4 /* 打电话 发信息 发邮件 打网页Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1876ACC31CC8B401008A6AD4 /* 打电话 发信息 发邮件 打网页 */ = {
+			isa = PBXGroup;
+			children = (
+				1876ACC81CC8B401008A6AD4 /* AppDelegate.h */,
+				1876ACC91CC8B401008A6AD4 /* AppDelegate.m */,
+				1876ACCB1CC8B401008A6AD4 /* ViewController.h */,
+				1876ACCC1CC8B401008A6AD4 /* ViewController.m */,
+				1876ACCE1CC8B401008A6AD4 /* Main.storyboard */,
+				1876ACD11CC8B401008A6AD4 /* Images.xcassets */,
+				1876ACD31CC8B401008A6AD4 /* LaunchScreen.xib */,
+				1876ACC41CC8B401008A6AD4 /* Supporting Files */,
+			);
+			path = "打电话 发信息 发邮件 打网页";
+			sourceTree = "<group>";
+		};
+		1876ACC41CC8B401008A6AD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1876ACC51CC8B401008A6AD4 /* Info.plist */,
+				1876ACC61CC8B401008A6AD4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1876ACDD1CC8B401008A6AD4 /* 打电话 发信息 发邮件 打网页Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1876ACE01CC8B401008A6AD4 /* _______________Tests.m */,
+				1876ACDE1CC8B401008A6AD4 /* Supporting Files */,
+			);
+			path = "打电话 发信息 发邮件 打网页Tests";
+			sourceTree = "<group>";
+		};
+		1876ACDE1CC8B401008A6AD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1876ACDF1CC8B401008A6AD4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1876ACC01CC8B401008A6AD4 /* 打电话 发信息 发邮件 打网页 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1876ACE41CC8B401008A6AD4 /* Build configuration list for PBXNativeTarget "打电话 发信息 发邮件 打网页" */;
+			buildPhases = (
+				1876ACBD1CC8B401008A6AD4 /* Sources */,
+				1876ACBE1CC8B401008A6AD4 /* Frameworks */,
+				1876ACBF1CC8B401008A6AD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "打电话 发信息 发邮件 打网页";
+			productName = "打电话 发信息 发邮件 打网页";
+			productReference = 1876ACC11CC8B401008A6AD4 /* 打电话 发信息 发邮件 打网页.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1876ACD91CC8B401008A6AD4 /* 打电话 发信息 发邮件 打网页Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1876ACE71CC8B401008A6AD4 /* Build configuration list for PBXNativeTarget "打电话 发信息 发邮件 打网页Tests" */;
+			buildPhases = (
+				1876ACD61CC8B401008A6AD4 /* Sources */,
+				1876ACD71CC8B401008A6AD4 /* Frameworks */,
+				1876ACD81CC8B401008A6AD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1876ACDC1CC8B401008A6AD4 /* PBXTargetDependency */,
+			);
+			name = "打电话 发信息 发邮件 打网页Tests";
+			productName = "打电话 发信息 发邮件 打网页Tests";
+			productReference = 1876ACDA1CC8B401008A6AD4 /* 打电话 发信息 发邮件 打网页Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1876ACB91CC8B401008A6AD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = zf;
+				TargetAttributes = {
+					1876ACC01CC8B401008A6AD4 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					1876ACD91CC8B401008A6AD4 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 1876ACC01CC8B401008A6AD4;
+					};
+				};
+			};
+			buildConfigurationList = 1876ACBC1CC8B401008A6AD4 /* Build configuration list for PBXProject "打电话 发信息 发邮件 打网页" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1876ACB81CC8B401008A6AD4;
+			productRefGroup = 1876ACC21CC8B401008A6AD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1876ACC01CC8B401008A6AD4 /* 打电话 发信息 发邮件 打网页 */,
+				1876ACD91CC8B401008A6AD4 /* 打电话 发信息 发邮件 打网页Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1876ACBF1CC8B401008A6AD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1876ACD01CC8B401008A6AD4 /* Main.storyboard in Resources */,
+				1876ACD51CC8B401008A6AD4 /* LaunchScreen.xib in Resources */,
+				1876ACD21CC8B401008A6AD4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1876ACD81CC8B401008A6AD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1876ACBD1CC8B401008A6AD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1876ACCD1CC8B401008A6AD4 /* ViewController.m in Sources */,
+				1876ACCA1CC8B401008A6AD4 /* AppDelegate.m in Sources */,
+				1876ACC71CC8B401008A6AD4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1876ACD61CC8B401008A6AD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1876ACE11CC8B401008A6AD4 /* _______________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1876ACDC1CC8B401008A6AD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1876ACC01CC8B401008A6AD4 /* 打电话 发信息 发邮件 打网页 */;
+			targetProxy = 1876ACDB1CC8B401008A6AD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1876ACCE1CC8B401008A6AD4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1876ACCF1CC8B401008A6AD4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1876ACD31CC8B401008A6AD4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1876ACD41CC8B401008A6AD4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1876ACE21CC8B401008A6AD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1876ACE31CC8B401008A6AD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1876ACE51CC8B401008A6AD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "打电话 发信息 发邮件 打网页/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1876ACE61CC8B401008A6AD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "打电话 发信息 发邮件 打网页/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1876ACE81CC8B401008A6AD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "打电话 发信息 发邮件 打网页Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/打电话 发信息 发邮件 打网页.app/打电话 发信息 发邮件 打网页";
+			};
+			name = Debug;
+		};
+		1876ACE91CC8B401008A6AD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "打电话 发信息 发邮件 打网页Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/打电话 发信息 发邮件 打网页.app/打电话 发信息 发邮件 打网页";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1876ACBC1CC8B401008A6AD4 /* Build configuration list for PBXProject "打电话 发信息 发邮件 打网页" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1876ACE21CC8B401008A6AD4 /* Debug */,
+				1876ACE31CC8B401008A6AD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1876ACE41CC8B401008A6AD4 /* Build configuration list for PBXNativeTarget "打电话 发信息 发邮件 打网页" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1876ACE51CC8B401008A6AD4 /* Debug */,
+				1876ACE61CC8B401008A6AD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1876ACE71CC8B401008A6AD4 /* Build configuration list for PBXNativeTarget "打电话 发信息 发邮件 打网页Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1876ACE81CC8B401008A6AD4 /* Debug */,
+				1876ACE91CC8B401008A6AD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1876ACB91CC8B401008A6AD4 /* Project object */;
+}
